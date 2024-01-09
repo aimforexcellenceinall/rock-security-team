@@ -14,10 +14,10 @@ import NotepadPage from './components/pages/NotepadPage';
 
 function App() {
   return (
-    <ErrorBoundary> {/* Wrap your entire application */}
-    <Router>
-      <div>
-        <nav>
+    <ErrorBoundary>
+      <Router>
+        <div className="app-container">
+          <nav>
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/register">Register</Link></li>
@@ -27,17 +27,23 @@ function App() {
             <li><Link to="/report">Lost & Found Child Form</Link></li>
           </ul>
         </nav>
-        <Switch>
-          <Route path="/" exact component={HomePage} />
+        <div className="content-area">
+            <Switch>
+              <Route path="/" exact component={HomePage} />
           <Route path="/register" component={Register} />
           <Route path="/login" component={Login} />
           <Route path="/notepad" component={NotepadPage} />
           <Route path="/prompt" component={PromptPage} />
           <Route path="/report" component={LostFoundChildForm} />
         </Switch>
-      </div>
-    </Router>
-    </ErrorBoundary>
+        </div>
+
+<div className="notepad-panel">
+  <NotepadPage />
+</div>
+</div>
+</Router>
+</ErrorBoundary>
   );
 }
 
