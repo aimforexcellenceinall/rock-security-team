@@ -1,0 +1,347 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header and Navigation Styles */
+.header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #4CAF50;
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 20px;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type='text'],
+.form-group input[type='tel'],
+.form-group input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group button {
+  display: inline-block;
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease-in-out;
+}
+
+.form-group button:hover {
+  background: #45a049;
+}
+
+/* Campus Posts Styles */
+.posts-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.posts-list li {
+  background: #e7e7e7;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+/* Register Styles */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.register-form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.register-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #45a049;
+}
+
+/* Login Styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.login-form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
+
+/* Lost Found Child Form Styles */
+.lost-found-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.lost-found-form input,
+.lost-found-form select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.dropdown {
+  cursor: pointer;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* PromptPage Styles */
+.prompt-page {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.prompt-section {
+  margin-bottom: 15px;
+}
+
+.prompt-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.prompt-button:hover {
+  background-color: #45a049;
+}
+
+/* Accessibility Styles */
+/* High contrast text */
+.high-contrast {
+  color: #000;
+  background-color: #fff;
+}
+
+/* Larger clickable area for buttons */
+.button {
+  padding: 12px 24px;
+  /* other styles */
+}
+
+/* MyComponents Styles */
+.feature-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.card-date {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+.card-description {
+  font-size: 0.95em;
+  margin-bottom: 1.5em;
+}
+
+.info-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.info-button:hover {
+  background-color: #45a049;
+}
+
+/* NotePad Styles */
+/* Container for the entire Notepad component */
+.notepad-container {
+  background-color: #f3f3f3; /* Light grey background */
+  border-left: 1px solid #ccc; /* Border to separate it from the main content */
+  padding: 20px; /* Padding inside the notepad */
+  height: 100%; /* Full height */
+  overflow-y: auto; /* Scrollable if content is long */
+}
+
+/* Styles for the notepad header/title */
+.notepad-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styles for the text area */
+.notepad-textarea {
+  width: 100%; /* Full width of the container */
+  height: calc(100% - 40px); /* Height minus header and padding */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none; /* Prevent resizing */
+}
+
+/* Optional: Styles for buttons or additional features */
+.notepad-button {
+  padding: 8px 15px;
+  margin-top: 10px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.notepad-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Side Panel Layout */
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.content-area {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.notepad-panel {
+  width: 300px; /* Adjust the width as needed */
+  border-left: 1px solid #ddd;
+}
+
+/* Bottom Layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.notepad-container {
+  height: 200px; /* Adjust height as needed */
+  border-top: 1px solid #ddd;
+}
