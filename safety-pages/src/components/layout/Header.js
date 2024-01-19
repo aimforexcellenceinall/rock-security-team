@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 const Header = () => {
   return (
     <header>
-      <h1>Your App Name</h1>
+      <h1>Rock Church Safety App</h1>
       <Navigation />
     </header>
   );
