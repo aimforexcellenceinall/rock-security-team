@@ -9,7 +9,7 @@ Ensure you have **Node.js** (v14.x or newer) and **Yarn** installed before setti
 ```bash
 git clone https://github.com/aimforexcellenceinall/rock-security-team.git
 cd safety-app
-yarn install```
+yarn install
 
 ## Project Structure
 Designed for scalability and ease of navigation, the app's architecture is laid out as follows:
@@ -39,13 +39,13 @@ safety-app/
 │   │   ├── BiometricAuth.js         # Integrates biometric authentication, supporting fingerprint and facial recognition for secure access.
 │   ├── utils/                       # Utility functions supporting common tasks and enhancing functionality.
 │   │   ├── AccessibilityUtils.js    # A collection of tools designed to improve the app's usability for users with disabilities.
-│   │   ├── OtherUtils.js            # Miscellaneous functions that support various aspects of the app's operations.```
+│   │   ├── OtherUtils.js            # Miscellaneous functions that support various aspects of the app's operations.
 
 ## Running the App
 Start the app locally to ignite the beacon of safety:
 
 ```bash
-yarn start```
+yarn start
 
 Open `http://localhost:3000` in your browser to explore the Safety App.
 
@@ -53,7 +53,7 @@ Open `http://localhost:3000` in your browser to explore the Safety App.
 Ensure the app's fortifications are robust:
 
 ```bash
-yarn test```
+yarn test
 
 This runs the suite of automated tests, verifying the app's stability and functionality.
 
@@ -62,7 +62,7 @@ Share your creation with the world through Firebase:
 
 ```bash
 yarn build
-firebase deploy```
+firebase deploy
 
 Before setting sail, confirm that `Firebase.js` is accurately configured for your Firebase project.
 
