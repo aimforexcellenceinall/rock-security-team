@@ -6,15 +6,16 @@ The **Safety App** is dedicated to enhancing safety protocols in public spaces, 
 ## Installation
 Ensure you have **Node.js** (v14.x or newer) and **Yarn** installed before setting up your local development environment:
 
-```bash
+\`\`\`bash
 git clone https://github.com/aimforexcellenceinall/rock-security-team.git
 cd safety-app
 yarn install
+\`\`\`
 
 ## Project Structure
 Designed for scalability and ease of navigation, the app's architecture is laid out as follows:
 
-```bash
+\`\`\`plaintext
 safety-app/
 ├── src/
 │   ├── components/
@@ -40,34 +41,36 @@ safety-app/
 │   ├── utils/                       # Utility functions supporting common tasks and enhancing functionality.
 │   │   ├── AccessibilityUtils.js    # A collection of tools designed to improve the app's usability for users with disabilities.
 │   │   ├── OtherUtils.js            # Miscellaneous functions that support various aspects of the app's operations.
+\`\`\`
 
 ## Running the App
 Start the app locally to ignite the beacon of safety:
 
-```bash
+\`\`\`bash
 yarn start
+\`\`\`
 
-Open `http://localhost:3000` in your browser to explore the Safety App.
+Open \`http://localhost:3000\` in your browser to explore the Safety App.
 
 ## Testing
 Ensure the app's fortifications are robust:
 
-```bash
+\`\`\`bash
 yarn test
-
-This runs the suite of automated tests, verifying the app's stability and functionality.
+\`\`\`
 
 ## Deployment
 Share your creation with the world through Firebase:
 
-```bash
+\`\`\`bash
 yarn build
 firebase deploy
+\`\`\`
 
-Before setting sail, confirm that `Firebase.js` is accurately configured for your Firebase project.
+Ensure \`Firebase.js\` is accurately configured for your Firebase project.
 
 ## Contributing
 We invite contributions of all forms. Whether you're patching bugs, proposing features, or enhancing documentation, your input is valuable. Fork the repository, make your changes, and submit a pull request. For detailed guidelines, consult our **CONTRIBUTING.md**.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
