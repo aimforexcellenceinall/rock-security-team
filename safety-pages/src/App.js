@@ -8,8 +8,10 @@ import Register from './components/forms/Register';
 import Login from './components/forms/Login';
 import HomePage from './components/pages/HomePage';
 import LostFoundChildForm from './components/forms/LostFoundChildForm';
+import ParentIsLostForm from './components/forms/ParentIsLostForm';
 import PromptPage from './components/pages/PromptPage';
 import NotepadPage from './components/pages/NotepadPage'; 
+import './App.css';
 
 
 function App() {
@@ -24,7 +26,8 @@ function App() {
             <li><Link to="/login">Login</Link></li>
             <li><Link to="/notepad">Notepad</Link></li>
             <li><Link to="/prompt">Prompt Page</Link></li>
-            <li><Link to="/report">Lost & Found Child Form</Link></li>
+            <li><Link to="/report-child">Lost & Found Child Form</Link></li>
+            <li><Link to="/report-parent">Lost & Found Parent Form</Link></li>
           </ul>
         </nav>
         <div className="content-area">
@@ -34,7 +37,8 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/notepad" component={NotepadPage} />
           <Route path="/prompt" component={PromptPage} />
-          <Route path="/report" component={LostFoundChildForm} />
+          <Route path="/report-child" component={LostFoundChildForm} />
+          <Route path="/report-parent" component={ParentIsLostForm} />
         </Switch>
         </div>
 
