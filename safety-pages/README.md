@@ -25,7 +25,7 @@ safety-app/
 │   │   │   ├── AriaLiveRegion.js       # Dynamically updates content for screen readers, improving real-time accessibility.
 │   │   │   ├── SkipToContentLink.js    # Implements an accessible skip link, allowing keyboard users to bypass navigation menus.
 │   │   ├── forms/                      # Facilitates user data entry and interaction.
-│   │   │   ├── LostFoundChildForm.js# Form for submitting reports on lost or found children, including essential details for responders.
+│   │   │   ├── LostFoundChildForm.js   # Form for submitting reports on lost or found children, including essential details for responders.
 │   │   │   ├── ParentIsLostForm.js     # Enables quick action and clear communication for instances when a parent is reported lost, incorporating immediate notification and emergency protocols.
 │   │   ├── layout/                     # Constructs the visual structure of the app.
 │   │   │   ├── Header.js               # The top-level navigation and branding area.
@@ -76,10 +76,10 @@ Ensure `Firebase.js` is accurately configured for your Firebase project.
 - Secure and private data handling to protect user information.
 
 ## Screenshots
-![Safety App Home](link-to-homepage-screenshot.jpg)
+![Safety App Home](safety-pages/link-to-homepage-screenshot.jpg)
 *The Safety App Home Screen*
 
-![Report Incident](link-to-report-incident-screenshot.jpg)
+![Report Incident](safety-pages/link-to-report-incident-screenshot.jpg)
 *Reporting an Incident*
 
 ## Technologies Used
@@ -95,7 +95,7 @@ For any questions, suggestions, or concerns, please reach out to me at [aimforex
 We're always looking for feedback and contributions to improve the Safety App and make our public spaces safer for everyone.
 
 ## Contributing
-We invite contributions of all forms. Whether you're patching bugs, proposing features, or enhancing documentation, your input is valuable. Fork the repository, make your changes, and submit a pull request. For detailed guidelines, consult our [CONTRIBUTING.md](CONTRIBUTING.md).
+We invite contributions of all forms. Whether you're patching bugs, proposing features, or enhancing documentation, your input is valuable. Fork the repository, make your changes, and submit a pull request. For detailed guidelines, consult our [CONTRIBUTING.md](safety-pages/CONTRIBUTING.md).
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](safety-pages/LICENSE.md) file for details.
