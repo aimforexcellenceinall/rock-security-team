@@ -8,7 +8,7 @@ Ensure you have **Node.js** (v14.x or newer) and **Yarn** installed before setti
 
 ```bash
 git clone https://github.com/aimforexcellenceinall/rock-security-team.git
-cd safety-app
+cd rock-security-team/safety-pages
 yarn install
 ```
 
