@@ -84,6 +84,40 @@ body {
   background: #45a049;
 }
 
+.action-instructions {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa; 
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+}
+
+.action-instructions p {
+  margin: 0; 
+}
+
+.action-instructions ul {
+  padding-left: 20px; 
+}
+
+.action-instructions li {
+  margin-bottom: 10px; 
+}
+
+.reminder {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-left: 3px solid #4CAF50; 
+}
+
+.next-steps {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-left: 3px solid #4CAF50;
+}
+
 /* Campus Posts Styles */
 .posts-list {
   list-style-type: none;
