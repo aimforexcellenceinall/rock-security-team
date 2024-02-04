@@ -1,45 +1,38 @@
-# Contributing to the Safety App
+# Code of Conduct for the Safety App
 
-Thank you for your interest in contributing to the Safety App! This project aims to enhance safety protocols, focusing on the efficient management of lost and found children in public spaces. Every contribution is valuable to us.
+## Our Pledge
 
-## How to Contribute
+We pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of background, family status, gender, gender identity or expression, marital status, sex, native language, age, ability, race and/or ethnicity, national origin, socioeconomic status, religion, geographic location, or any other dimension of diversity.
 
-### Reporting Bugs
+## Our Standards
 
-Before reporting a bug, please check our [issue tracker](https://github.com/aimforexcellenceinall/rock-security-team/issues) to avoid duplicates. When reporting a bug, please include:
+Examples of behavior that contributes to a positive environment include:
 
-- A clear and descriptive title
-- A detailed description of the issue
-- Steps to reproduce the behavior
-- Expected and actual outcomes
-- Screenshots, if applicable
+- Demonstrating empathy and kindness toward other people
+- Being respectful of differing opinions, viewpoints, and experiences
+- Giving and gracefully accepting constructive feedback
+- Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
 
-### Suggesting Enhancements
+Examples of unacceptable behavior include:
 
-We welcome suggestions for enhancements! Please submit your suggestions as new issues in the issue tracker with:
+- The use of sexualized language or imagery, and sexual attention or advances
+- Trolling, insulting or derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information without their explicit permission
+- Other conduct which could reasonably be considered inappropriate in a professional setting
 
-- A clear and concise description of the proposed feature
-- An explanation of the problem it solves or the value it adds
-- Any additional context or screenshots
+## Enforcement Responsibilities
 
-### Pull Requests
+Project maintainers are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
 
-We encourage you to contribute directly to the codebase. Here's how:
+## Scope
 
-1. Fork the repository and create your branch from `main`.
-2. Write clear, commented, and testable code.
-3. Ensure your code adheres to the project's style guidelines.
-4. Write a detailed commit message.
-5. Open a pull request with a clear title and description.
+This Code of Conduct applies within all project spaces, and also applies when an individual is officially representing the project in public spaces.
 
-## Code of Conduct
+## Enforcement
 
-Please review our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a respectful and inclusive environment for all contributors.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project team responsible at [aimforexcellenceinall@gmail.com](mailto:aimforexcellenceinall@gmail.com). All complaints will be reviewed and investigated promptly and fairly.
 
-## License
+## Attribution
 
-By contributing, you agree that your contributions will be licensed under the same license as the project (MIT License).
-
-If you have any questions, feel free to reach out to me directly here on [GitHub](https://github.com/aimforexcellenceinall).
-
-Thank you for contributing to making our public spaces safer!
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1, available at [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html), and inspired by the principles of the Rock Safety Team [About Page](https://www.sdrock.com/ministries/safety).
