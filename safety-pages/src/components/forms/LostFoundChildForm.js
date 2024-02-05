@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './LostFoundChildForm.css'; // Importing CSS
 
 const LostFoundChildForm = () => {
   // ... [formData and handleChange code remains the same]
@@ -23,6 +22,23 @@ const LostFoundChildForm = () => {
       console.error('Error:', error);
     });
   };
+
+  const [formData, setFormData] = useState({
+    race: '',
+    hair: '',
+    build: '',
+    shirt: '',
+    pants: '',
+    areaLastSeen: ''
+  });
+  
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prevState => ({
+      ...prevState,
+      [name]: value
+    }));
+  };  
 
   // Form JSX with dropdowns
   return (

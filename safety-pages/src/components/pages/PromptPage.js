@@ -1,12 +1,12 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom'; // Import useHistory for navigation
+import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
 
 const PromptPage = ({ promptType }) => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   // Function to navigate to different pages
   const navigateTo = (path) => {
-    history.push(path);
+    navigate.push(path);
   };
 
   const renderPromptContent = () => {

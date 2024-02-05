@@ -10,6 +10,8 @@ Ensure you have **Node.js** (v14.x or newer) and **Yarn** installed before setti
 git clone https://github.com/aimforexcellenceinall/rock-security-team.git
 cd rock-security-team/safety-pages
 yarn install
+yarn add react-router-dom firebase
+yarn global add firebase-tools
 ```
 
 ## Project Structure
@@ -37,8 +39,8 @@ safety-app/
 │   │   │   ├── NotePad.js              # A simple utility for users to jot down notes or reminders.
 │   ├── context/                        # State management
 │   │   ├── AppContext.js               # Centralizes app state management, facilitating shared state across components.
-│   ├── services/                       # Business logic (e.g., authentication)
-│   │   ├── BiometricAuth.js            # Integrates biometric authentication, supporting fingerprint and facial recognition for secure access.
+│   ├── services/                       # Business logic and service-related functionalities
+│   │   ├── FirebaseService.js          # Handles Firebase services including authentication and database interactions
 │   ├── utils/                          # Utility functions supporting common tasks and enhancing functionality.
 │   │   ├── AccessibilityUtils.js       # A collection of tools designed to improve the app's usability for users with disabilities.
 │   │   ├── OtherUtils.js               # Miscellaneous functions that support various aspects of the app's operations.
@@ -61,14 +63,18 @@ yarn test
 ```
 
 ## Deployment
-Share your creation with the world through Firebase:
+This section guides our Safety Team on deploying updates to the Safety App, ensuring that our internal systems are always running the latest version with all necessary features and security updates.
+
+### Deploying Updates
+To deploy updates to our internal Firebase hosting:
+
+1. Ensure you have the necessary permissions and access to our Firebase project.
+2. After finalizing your changes in the codebase:
 
 ```bash
 yarn build
 firebase deploy
 ```
-
-Ensure `Firebase.js` is accurately configured for your Firebase project.
 
 ## Features
 - Real-time incident reporting and tracking for lost and found children.
@@ -90,12 +96,20 @@ Ensure `Firebase.js` is accurately configured for your Firebase project.
 - **Context API**: Utilized for state management, promoting efficient data flow within the application
 
 ## Contact
-For any questions, suggestions, or concerns, please reach out to me at [aimforexcellenceinall@gmail.com](mailto:aimforexcellenceinall@gmail.com).
+If you have any questions, suggestions, or feedback about the Safety App, we'd love to hear from you! Please don't hesitate to reach out via email at [aimforexcellenceinall@gmail.com](mailto:aimforexcellenceinall@gmail.com).
 
-We're always looking for feedback and contributions to improve the Safety App and make our public spaces safer for everyone.
+Our mission is to continually improve the Safety App to ensure our public spaces are safer for everyone. Your feedback is crucial to achieving this goal, and we look forward to hearing from you.
 
 ## Contributing
-We invite contributions of all forms. Whether you're patching bugs, proposing features, or enhancing documentation, your input is valuable. Fork the repository, make your changes, and submit a pull request. For detailed guidelines, consult our [CONTRIBUTING.md](CONTRIBUTING.md).
+Our Safety App is an internal project developed by the Safety Team. While we primarily handle the app's development and updates, we appreciate insights and suggestions from all team members within our organization.
+
+If you have ideas for enhancing the app or have identified a potential issue:
+
+1. Please reach out to a member of the Safety Team to discuss your observations or suggestions.
+2. For detailed feedback or feature suggestions, consider sending an email or using our internal communication tools to outline your thoughts.
+3. While direct changes to the codebase by non-Safety Team members are restricted, your insights are invaluable for the continual improvement of our safety protocols.
+
+We strive to review all suggestions and incorporate feasible improvements to ensure our app meets our community's safety needs.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

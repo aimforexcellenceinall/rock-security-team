@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { database } from '../Firebase'; // Ensure this path is correct
+import { database } from '../Firebase'; 
 
 const HomePage = () => {
   const [campusInfo, setCampusInfo] = useState({

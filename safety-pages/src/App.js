@@ -1,8 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { AppContext } from './components/context/AppContext';
-import { firebase } from './components/Firebase';
-import BiometricAuth from './components/services/BiometricAuth';
+import { auth, database, analytics } from './components/Firebase';
 import ErrorBoundary from './components/common/ErrorBoundary';
 import Register from './components/forms/Register';
 import Login from './components/forms/Login';
@@ -31,15 +30,15 @@ function App() {
           </ul>
         </nav>
         <div className="content-area">
-            <Switch>
-              <Route path="/" exact component={HomePage} />
-          <Route path="/register" component={Register} />
-          <Route path="/login" component={Login} />
-          <Route path="/notepad" component={NotepadPage} />
-          <Route path="/prompt" component={PromptPage} />
-          <Route path="/report-child" component={LostFoundChildForm} />
-          <Route path="/report-parent" component={ParentIsLostForm} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/notepad" element={<NotepadPage />} />
+          <Route path="/prompt" element={<PromptPage />} />
+          <Route path="/report-child" element={<LostFoundChildForm />} />
+          <Route path="/report-parent" element={<ParentIsLostForm />} />
+        </Routes>
         </div>
 
 <div className="notepad-panel">
