@@ -109,7 +109,7 @@ If you have ideas for enhancing the app or have identified a potential issue:
 2. For detailed feedback or feature suggestions, consider sending an email or using our internal communication tools to outline your thoughts.
 3. While direct changes to the codebase by non-Safety Team members are restricted, your insights are invaluable for the continual improvement of our safety protocols.
 
-We strive to review all suggestions and incorporate feasible improvements to ensure our app meets our community's safety needs.
+We strive to review all suggestions and incorporate feasible improvements to ensure our app meets our community's safety needs. Please see our [contributing guidelines](CONTRIBUTING.md) for more information on how you can contribute to making our public spaces safer.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
