@@ -40,7 +40,8 @@ safety-app/
 │   ├── context/                        # State management
 │   │   ├── AppContext.js               # Centralizes app state management, facilitating shared state across components.
 │   ├── services/                       # Business logic and service-related functionalities
-│   │   ├── FirebaseService.js          # Handles Firebase services including authentication and database interactions
+│   │   ├── AppCheck.js                 # Implements Firebase App Check for enhancing app security
+│   │   ├── FirebaseConfig.js           # Manages Firebase authentication and database services
 │   ├── utils/                          # Utility functions supporting common tasks and enhancing functionality.
 │   │   ├── AccessibilityUtils.js       # A collection of tools designed to improve the app's usability for users with disabilities.
 │   │   ├── OtherUtils.js               # Miscellaneous functions that support various aspects of the app's operations.
