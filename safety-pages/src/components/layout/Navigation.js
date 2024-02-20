@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react"
+import { Link } from "react-router-dom"
 
 const Navigation = () => {
   return (
@@ -11,7 +11,7 @@ const Navigation = () => {
         {/* Add more navigation links as needed */}
       </ul>
     </nav>
-  );
-};
+  )
+}
 
-export default Navigation;
+export default Navigation

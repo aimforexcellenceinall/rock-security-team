@@ -1,6 +1,6 @@
-import React from 'react';
-import { AccessibleButton } from '../Accessibility/AccessibilityUtils';
-import { formatDate, capitalizeFirstLetter, truncateString } from './OtherUtils';
+import React from "react"
+import { AccessibleButton } from "../Accessibility/AccessibilityUtils"
+import { formatDate, capitalizeFirstLetter, truncateString } from "./OtherUtils"
 
 const MyComponent = ({ date, title, description, onMoreInfoClick }) => {
   return (
@@ -16,7 +16,7 @@ const MyComponent = ({ date, title, description, onMoreInfoClick }) => {
         More Info
       </AccessibleButton>
     </div>
-  );
-};
+  )
+}
 
-export default MyComponent;
+export default MyComponent

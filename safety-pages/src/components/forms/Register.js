@@ -1,26 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState } from "react"
 
 const Register = () => {
   const [newUserInfo, setNewUserInfo] = useState({
-    name: '',
-    email: '',
-    password: '',
+    name: "",
+    email: "",
+    password: "",
     // other registration fields
-  });
-  const [photo, setPhoto] = useState(null);
+  })
+  const [photo, setPhoto] = useState(null)
 
   const handleInputChange = (e) => {
-    setNewUserInfo({ ...newUserInfo, [e.target.name]: e.target.value });
-  };
+    setNewUserInfo({ ...newUserInfo, [e.target.name]: e.target.value })
+  }
 
   const handlePhotoChange = (event) => {
-    setPhoto(event.target.files[0]);
-  };
+    setPhoto(event.target.files[0])
+  }
 
   const handleRegistration = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     // Registration logic here
-  };
+  }
 
   return (
     <form onSubmit={handleRegistration}>
@@ -31,7 +31,7 @@ const Register = () => {
       <input type="file" onChange={handlePhotoChange} />
       <button type="submit">Register</button>
     </form>
-  );
-};
+  )
+}
 
-export default Register;
+export default Register

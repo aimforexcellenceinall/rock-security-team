@@ -1,5 +1,5 @@
-import React from 'react';
-import Navigation from './Navigation'; 
+import React from "react"
+import Navigation from "./Navigation" 
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
       <h1>Rock Church Safety App</h1>
       <Navigation />
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
