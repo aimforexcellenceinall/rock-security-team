@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react"
 
 const AccessibleButton = ({ onClick, children, ariaLabel, ...props }) => {
   return (
@@ -9,7 +9,7 @@ const AccessibleButton = ({ onClick, children, ariaLabel, ...props }) => {
     >
       {children}
     </button>
-  );
-};
+  )
+}
 
-export default AccessibleButton;
+export default AccessibleButton

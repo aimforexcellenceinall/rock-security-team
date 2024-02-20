@@ -1,17 +1,17 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import { AppContext } from "./context/AppContext";
-import { auth, database, analytics } from "./services/firebase/FirebaseConfig";
-import { appCheck } from "./services/firebase/AppCheck";
-import ErrorBoundary from "./components/common/ErrorBoundary";
-import HomePage from "./components/pages/HomePage";
-import Login from "./components/forms/Login";
-import LostFoundChildForm from "./components/forms/LostFoundChildForm";
-import NotepadPage from "./components/pages/NotepadPage";
-import ParentIsLostForm from "./components/forms/ParentIsLostForm";
-import PromptPage from "./components/pages/PromptPage";
-import Register from "./components/forms/Register";
-import "./App.css";
+import React from "react"
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom"
+import { AppContext } from "./context/AppContext"
+import { auth, analytics, database } from "./services/firebase/FirebaseConfig"
+import { appCheck } from "./services/firebase/AppCheck"
+import ErrorBoundary from "./components/common/ErrorBoundary"
+import HomePage from "./components/pages/HomePage"
+import Login from "./components/forms/Login"
+import LostFoundChildForm from "./components/forms/LostFoundChildForm"
+import NotepadPage from "./components/pages/NotepadPage"
+import ParentIsLostForm from "./components/forms/ParentIsLostForm"
+import PromptPage from "./components/pages/PromptPage"
+import Register from "./components/forms/Register"
+import "./App.css"
 
 function App() {
   return (
@@ -61,7 +61,7 @@ function App() {
         </div>
       </Router>
     </ErrorBoundary>
-  );
+  )
 }
 
-export default App;
+export default App
